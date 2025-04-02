@@ -28,8 +28,8 @@ html {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 16px;
-    padding-left: 16px;
+    /* padding-right: 16px;
+    padding-left: 16px; */
   }
 
   .navbar{
@@ -420,4 +420,45 @@ html {
 
   .inskill:hover::after{
     width: 100%; 
+  }
+
+
+  /* PORTOFFFF */
+  .page-portof{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+  
+  .scroll-portof{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+  }
+
+  .track{
+    display: flex;
+    width: max-content;
+    animation: scrollAnimation 25s linear infinite;
+  }
+
+  .item-scroll{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-right: 50px;
+    border-radius: 10px;
+  }
+
+  @keyframes scrollAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  
+  /* SOSMEDDD */
+  .sosmed{
+    background-color: var(--second);
+    width: 100%;
+    height: 400px;
   }
