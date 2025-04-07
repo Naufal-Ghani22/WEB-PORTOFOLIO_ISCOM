@@ -257,7 +257,7 @@ html {
   .school{
     background-color: var(--primary);
     width: 650px;
-    height: 600px;
+    height: 500px;
     margin: 2rem;
     /* margin-bottom: 4rem; */
     border-radius: 2rem;
@@ -266,10 +266,10 @@ html {
   }
 
   .img-school{
-    width: 90%;
-    padding-top: 1rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    width: 100%;  /* Sesuaikan lebar */
+    max-width: 800px; /* Maksimum ukuran gambar */
+    aspect-ratio: 16 / 9; /* Atur rasio 16:9 */
+    overflow: hidden;
   }
   
   .img-in-school{
