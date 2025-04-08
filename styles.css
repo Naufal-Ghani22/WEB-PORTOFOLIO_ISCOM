@@ -298,7 +298,7 @@ html {
     margin-top: 4rem;
     background-color: var(--second);
     width: auto;
-    height: 2500px;
+    height: 2000px;
   }
 
   .judul-exper .judul-skill{
@@ -325,7 +325,7 @@ html {
   .exper{
     width: 25%;
     background-color: var(--primary);
-    height: 550px;
+    height: 450px;
     margin: 1rem;
     border-radius: 1rem;
     padding: 1rem 2rem;
@@ -422,6 +422,14 @@ html {
     width: 100%; 
   }
 
+  .skill-detail{
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-skill{
+    width: 90px;
+  }
 
   /* PORTOFFFF */
   .page-portof{
