@@ -46,7 +46,7 @@ html {
   .navbar-menu{
     display: flex;
     position: relative;
-    width: 100%;
+    /* max-width: 8rem; */
     align-items: center;
     justify-content: space-between;
     padding: 0px 10px;
