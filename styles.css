@@ -425,10 +425,19 @@ html {
   .skill-detail{
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 
-  .icon-skill{
-    width: 90px;
+  .icon-skill {
+    max-width: 90px;
+    opacity: 0; /* Awalnya tidak terlihat */
+    visibility: hidden; /* Untuk menghindari area yang masih memengaruhi layout */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .inskill:hover .icon-skill {
+    opacity: 1; /* Terlihat saat hover */
+    visibility: visible; /* Mengaktifkan visibilitas */
   }
 
   /* PORTOFFFF */
