@@ -424,12 +424,14 @@ html {
 
   .skill-detail{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
   .icon-skill {
     max-width: 90px;
+    margin: 20px;
     opacity: 0; /* Awalnya tidak terlihat */
     visibility: hidden; /* Untuk menghindari area yang masih memengaruhi layout */
     transition: opacity 0.3s ease, visibility 0.3s ease;
